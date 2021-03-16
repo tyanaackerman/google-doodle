@@ -6,27 +6,49 @@
 */
 
 * {
-  outline: 1px dotted black;
+  /* outline: 1px dotted black; */
 }
 
 /* Doodle Stage */
 #stage {
-  background: #ccc;
-  height: 300px;
-  width: 600px;
+  height: 347px;
+  width: 504px;
 
   position: relative;
 }
 
+h1 {
+  font-family: "Marck Script", cursive;
+}
+
 #stage:hover h1 {
   left: 0;
-  transition: left 1s;
+  /* transition: left 1s; */
   opacity: 1;
 }
 
 #stage h1 {
   position: absolute;
   bottom: 0;
-  left: -200px;
+  /* left: -200px; */
   opacity: 0;
+}
+
+#stage:hover p {
+  opacity: 1;
+  color: white;
+  font-family: arial;
+}
+
+#stage p {
+  position: absolute;
+  top: 0;
+  padding: 2em 2em 2em 2em;
+  opacity: 0;
+}
+
+#snow {
+}
+
+#snow1 {
 }
